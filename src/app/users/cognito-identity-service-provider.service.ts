@@ -148,7 +148,7 @@ export class UsersService {
   /**
    * Set credentials
    */
-  private async setCredentials() {
+  public async setCredentials() {
     // set region based on saved configuration
     AWS.config.region = this.amplifyConfiguration.configurationObj.region;
     return Auth.currentSession().then(currentSession => {

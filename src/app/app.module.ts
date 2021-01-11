@@ -28,6 +28,7 @@ import { UserAttributes } from './shared/pipes/user-attributes.pipe';
 import { MatIconRegistry } from '@angular/material/icon';
 import { UserSearchComponent } from './users/user-search/user-search.component';
 import { UserGroupsComponent } from './users/user-form/user-groups/user-groups.component';
+import { RecordComponent } from './record/record.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { UserGroupsComponent } from './users/user-form/user-groups/user-groups.c
     LoaderComponentComponent,
     UserAttributes,
     UserSearchComponent,
-    UserGroupsComponent
+    UserGroupsComponent,
+    RecordComponent
   ],
   imports: [
     AmplifyAngularModule,

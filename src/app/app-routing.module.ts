@@ -7,6 +7,7 @@ import { SetupComponent } from './setup/setup.component';
 import { UserCreateComponent } from './users/user-create/user-create.component';
 import { UserEditComponent } from './users/user-edit/user-edit.component';
 import { UserSearchComponent } from './users/user-search/user-search.component';
+import { RecordComponent } from './record/record.component';
 
 const routes: Routes = [
   // default - dashboard
@@ -17,6 +18,10 @@ const routes: Routes = [
   {
     component: SetupComponent,
     path: 'setup'
+  },
+  {
+    component: RecordComponent,
+    path: 'record'
   },
   {
     component: SigninComponent,
